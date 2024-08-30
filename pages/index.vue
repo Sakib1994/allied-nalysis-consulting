@@ -8,5 +8,7 @@ const route = useRoute()
     <Hero />
     <AboutUs />
     <OurServices />
+    <Reccomendation />
+    <MissionVision />
   </main>
 </template>
