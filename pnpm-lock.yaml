@@ -15,6 +15,9 @@ importers:
         specifier: latest
         version: 3.4.38
     devDependencies:
+      '@nuxtjs/color-mode':
+        specifier: ^3.4.4
+        version: 3.4.4(magicast@0.3.4)(rollup@4.21.0)
       autoprefixer:
         specifier: ^10.4.20
         version: 10.4.20(postcss@8.4.41)
@@ -718,6 +721,9 @@ packages:
     engines: {node: ^14.18.0 || >=16.10.0}
     peerDependencies:
       vue: ^3.3.4
+
+  '@nuxtjs/color-mode@3.4.4':
+    resolution: {integrity: sha512-VSNJVGnRIjiGmfbMa0cN+rwNRowDRTL/wku/z5MpKSanVo3khIRitBNqNviso1l3T+LW0pLHeXBNp6L8g/l1EA==}
 
   '@parcel/watcher-android-arm64@2.4.1':
     resolution: {integrity: sha512-LOi/WTbbh3aTn2RYddrO8pnapixAziFl6SMxHM69r3tvdSm94JtCenaKgk1GRg5FJ5wpMCpHeW+7yqPlvZv7kg==}
@@ -3997,6 +4003,17 @@ snapshots:
       - vls
       - vti
       - vue-tsc
+
+  '@nuxtjs/color-mode@3.4.4(magicast@0.3.4)(rollup@4.21.0)':
+    dependencies:
+      '@nuxt/kit': 3.13.0(magicast@0.3.4)(rollup@4.21.0)
+      pathe: 1.1.2
+      pkg-types: 1.2.0
+      semver: 7.6.3
+    transitivePeerDependencies:
+      - magicast
+      - rollup
+      - supports-color
 
   '@parcel/watcher-android-arm64@2.4.1':
     optional: true

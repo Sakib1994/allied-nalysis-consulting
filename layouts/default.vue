@@ -6,8 +6,6 @@
         <main>
             <slot />
         </main>
-        <footer>
-            <p>Hi from footer</p>
-        </footer>
+        <Footer />
     </div>
 </template>
