@@ -4,10 +4,10 @@
             <div class="flex-1">
                 <div class="text-center lg:text-left">
                     <h1 class="text-2xl font-bold">About us</h1>
-                    <p class="py-4 text-2xl md:text-3xl">
+                    <p class="py-4 text-2xl md:text-3xl text-indigo-900">
                         Today’s a better time to Connect with
                     </p>
-                    <p class="py-4 text-2xl md:text-3xl">
+                    <p class="py-4 text-2xl md:text-3xl text-indigo-900">
                         Allied Analysis Consulting
                     </p>
                     <div class="flex flex-col">
@@ -63,24 +63,24 @@
             </div>
             <div class="flex-1">
                 <div class="card bg-slate-100 w-11/12 md:w-full md:max-w-sm shrink-0 shadow-2xl p-4 md:p-2 m-4 mx-auto">
-                    <div class="flex md:flex-col gap-2">
+                    <div class="flex md:flex-col gap-2 text-amber-400">
                         <div class="card bg-base-100 w-1/3 md:w-full shadow-xl">
                             <div class="card-body items-center text-center">
-                                <h2 class="card-title">100k+</h2>
-                                <p>Companies/Clients Work With</p>
+                                <h2 class="card-title text-4xl">100k+</h2>
+                                <p class="text-xl">Companies/Clients Work With</p>
                             </div>
                         </div>
                         <div class="card bg-base-100 w-1/3 md:w-full shadow-xl">
                             <div class="card-body items-center text-center">
-                                <h2 class="card-title"> 500K+</h2>
-                                <p>Consultations</p>
+                                <h2 class="card-title text-4xl"> 500K+</h2>
+                                <p class="text-xl">Consultations</p>
                             </div>
                         </div>
                         <div class="card bg-base-100 w-1/3 md:w-full shadow-xl">
 
                             <div class="card-body items-center text-center">
-                                <h2 class="card-title">100+</h2>
-                                <p>Expert Consultants </p>
+                                <h2 class="card-title text-4xl">100+</h2>
+                                <p class="text-xl">Expert Consultants </p>
                             </div>
                         </div>
                     </div>

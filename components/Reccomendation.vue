@@ -1,23 +1,43 @@
 <template>
     <div class="min-h-screen bg-slate-100">
-        <div class="w-full flex flex-col items-center">
+        <div class="w-full md:w-120 text-slate-800 mx-auto py-12 pt-20 text-center prose space-y-4">
             <h2 class="text-3xl md:text-5xl">We help bussiness to grow</h2>
             <h3 class="text-2xl md:text-3xl">faster and bigger</h3>
         </div>
-        <div class="flex gap-4 p-2 w-11/12 mx-auto">
-            <div class="card w-full md:w-1/3 bg-neutral-700 text-neutral-content">
-                <div class="card-body">
-                    <div class="card-title justify-center">
-                        <Rating />
+        <div class="grid my-12 grid-cols-1 lg:grid-cols-3 gap-4 p-2 w-11/12 mx-auto">
+            <div v-for="rec in reccomendations" class="card w-full bg-neutral-700 text-neutral-content">
+                <div class="card-body items-center text-neutral-50">
+                    <div class="card-title justify-center items-center text-5xl pb-4">
+                        {{ rec.rating }}
                     </div>
+                    <Rating />
                     <h2 class="text-2xl text-center">
-                        Business Class
+                        {{ rec.title }}
                     </h2>
-                    <p class="text-xl text-center">
-                        Premium consulting services tailored for excellence.
+                    <p class="text-lg text-center">
+                        {{ rec.description }}
                     </p>
                 </div>
             </div>
         </div>
     </div>
 </template>
+<script setup lang="ts">
+const reccomendations = [
+    {
+        title: "Business Class",
+        description: "Premium consulting services tailored for excellence.",
+        rating: 4.6
+    },
+    {
+        title: "Satisfied Customer",
+        description: "Delivering results that exceed client expectations.",
+        rating: 4.5
+    },
+    {
+        title: "Business Rating",
+        description: "Highly rated for consistent quality and success.",
+        rating: 4.8
+    }
+]
+</script>
