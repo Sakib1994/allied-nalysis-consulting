@@ -1,9 +1,13 @@
 <template>
-    <div class="hero bg-base-100 min-h-screen">
-        <div class="hero-content flex flex-col md:flex-row">
-            <div class="flex-1">
+    <div class="bg-base-100">
+        <div class="grid grid-cols-1 md:grid-cols-2">
+            <div class="bg-[url('/image-aboutus.jpeg')] bg-cover">
+
+            </div>
+            <div class="my-8 py-8 pl-8">
                 <div class="text-center lg:text-left">
-                    <h1 class="text-2xl font-bold">About us</h1>
+                    <h1 class="text-2xl font-bold uppercase">About us</h1>
+                    <div class="divider"></div>
                     <p class="py-4 text-2xl md:text-3xl text-indigo-900">
                         Today’s a better time to Connect with
                     </p>
@@ -60,23 +64,21 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="flex-1">
-                <div class="card bg-slate-100 w-11/12 md:w-full md:max-w-sm shrink-0 shadow-2xl p-4 md:p-2 m-4 mx-auto">
-                    <div class="flex md:flex-col gap-2 text-amber-400">
-                        <div class="card bg-base-100 w-1/3 md:w-full shadow-xl">
+                <div class="w-11/12 shrink-0 p-4 md:p-2 m-4 mx-auto">
+                    <div class="flex gap-2 text-amber-400">
+                        <div class="card bg-base-100 w-1/3 shadow-xl">
                             <div class="card-body items-center text-center">
                                 <h2 class="card-title text-4xl">100k+</h2>
                                 <p class="text-xl">Companies/Clients Work With</p>
                             </div>
                         </div>
-                        <div class="card bg-base-100 w-1/3 md:w-full shadow-xl">
+                        <div class="card bg-base-100 w-1/3 shadow-xl">
                             <div class="card-body items-center text-center">
                                 <h2 class="card-title text-4xl"> 500K+</h2>
                                 <p class="text-xl">Consultations</p>
                             </div>
                         </div>
-                        <div class="card bg-base-100 w-1/3 md:w-full shadow-xl">
+                        <div class="card bg-base-100 w-1/3 shadow-xl">
 
                             <div class="card-body items-center text-center">
                                 <h2 class="card-title text-4xl">100+</h2>

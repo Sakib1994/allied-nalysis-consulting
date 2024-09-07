@@ -1,7 +1,7 @@
 <template>
-    <div class="min-h-screen bg-slate-100">
+    <div class="min-h-screen bg-slate-700 text-slate-100">
         <div class="w-full flex flex-col items-center">
-            <div class="w-11/12 md:w-1/2 text-center">
+            <div class="w-11/12 md:w-1/2 text-center space-y-4">
                 <h2 class="text-2xl md:text-4xl">Mission - Driven, Vision - Focused</h2>
                 <p class="text-xl md:text-2xl">At Allied Analysis Consulting, our mission is to deliver personalized,
                     results-driven solutions that empower businesses to thrive. Guided by a vision to be the industry
