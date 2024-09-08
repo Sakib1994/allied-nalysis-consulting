@@ -9,15 +9,12 @@
                 <h2 class="text-2xl md:text-4xl">Innovation in Every Steps.</h2>
             </template>
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-2 py-12 w-11/12 mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-2 py-12 w-11/12 mx-auto max-w-5xl">
             <div v-for="service in serviceList" class="card bg-slate-100 flex-1 w-full shadow-xl service-card">
                 <div class="card-body text-center">
                     <h2 class="card-title justify-center py-4">{{ service.title }}</h2>
                     <p>Expert analysis and strategic advocacy to navigate complex policies.</p>
                     <div class="card-actions justify-center pt-4">
-                        <!-- 
-                        z-10 bg-transparent border border-black min-h-12 px-4 rounded-lg
-                        <button class="btn btn-outline hover:text-white">Book an appointment</button> -->
                         <button class="z-10 relative border-2 min-h-12 rounded-lg border-gray-800 bg-transparent py-2.5 px-5 uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-y-0 before:bg-gray-800 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-y-100">Book an appointment</button>
                     </div>
                 </div>

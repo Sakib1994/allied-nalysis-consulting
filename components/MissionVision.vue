@@ -1,28 +1,71 @@
 <template>
-    <div class="min-h-screen bg-slate-700 text-slate-100">
-        <div class="w-full flex flex-col items-center">
-            <div class="w-11/12 md:w-1/2 text-center space-y-4">
+    <div class="min-h-screen bg-slate-50">
+        <div class="w-full bg-slate-700 text-slate-100 flex flex-col items-center">
+            <div class="py-12 w-11/12 md:w-1/2 text-center space-y-4">
                 <h2 class="text-2xl md:text-4xl">Mission - Driven, Vision - Focused</h2>
-                <p class="text-xl md:text-2xl">At Allied Analysis Consulting, our mission is to deliver personalized,
+                <p class="text-lg md:text-xl">At Allied Analysis Consulting, our mission is to deliver personalized,
                     results-driven solutions that empower businesses to thrive. Guided by a vision to be the industry
                     leader, we are committed to continuous innovation and exceeding client expectations</p>
             </div>
         </div>
-        <div class="w-full flex flex-col md:flex-row md:w-5/6 mx-auto">
-            <div class="w-1/3">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5 12 21m0 0-7.5-7.5M12 21V3" />
-                </svg>
-            </div>
-            <div class="w-2/3">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                        d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                </svg>
-            </div>
-        </div>
+        <!-- Mission section -->
+        <section class="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center p-4">
+            <article class="service-card">
+                <div class="card w-full lg:w-128 shadow-xl text-blue-900">
+                    <div class="card-body">
+                        <h2 class="card-title text-3xl">Our Expertise</h2>
+                        <ul class="list-disc space-y-4 list-inside">
+                            <li>
+                                Mapping customer/consumer needs
+                            </li>
+                            <li>
+                                Assessing AI opportunities and capabilities
+                            </li>
+                            <li>
+                                Assessing market competitiveness
+                            </li>
+                            <li>
+                                Developing innovation strategies
+                            </li>
+                            <li>Generating ideas and brainstorming</li>
+                        </ul>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                </div>
+            </article>
+            <aside class="hidden lg:block py-12 -translate-x-8">
+                <img src="/mission.webp" class="object-contain rounded-lg">
+            </aside>
+        </section>
+        <!-- Approch section -->
+        <section class="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center">
+            <aside class="hidden lg:block py-12 translate-x-8">
+                <img src="/approch.webp" class="object-contain rounded-lg">
+            </aside>
+            <article class="service-card">
+                <div class="card w-full lg:w-128 bg-white shadow-xl text-blue-900">
+                    <div class="card-body">
+                        <h2 class="card-title text-3xl">Our Approach</h2>
+                        <ul class="list-disc space-y-4 list-inside">
+                            <li>
+                                Research (quantitative & qualitative)
+                            </li>
+                            <li>
+                                Data analysis and mining
+                            </li>
+                            <li>
+                                Storytelling through synthesized insights
+                            </li>
+                            <li>
+                                Mapping research and insights roadmaps
+                            </li>
+                            <li>Identifying cultural and market trends</li>
+                        </ul>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                </div>
+            </article>
+        </section>
         <div class="w-full flex flex-col md:flex-row">
             <div class="w-2/3"></div>
             <div class="w-1/3"></div>

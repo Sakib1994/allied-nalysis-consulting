@@ -10,5 +10,6 @@ const route = useRoute()
     <OurServices />
     <Reccomendation />
     <MissionVision />
+    <Feedback />
   </main>
 </template>

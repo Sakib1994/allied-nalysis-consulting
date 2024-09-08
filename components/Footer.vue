@@ -1,6 +1,4 @@
 <template>
-    <!-- <footer class="footer bg-slate-700 text-base-content p-10 grid-cols-1 md:grid-cols-4"> -->
-
     <footer class="footer bg-slate-700 text-base-content p-10 grid-cols-3 lg:grid-cols-4 border-b-2 border-slate-400">
         <aside class="text-neutral-100 space-y-4 hidden lg:block">
             <img src="/allied_logo_large.png" alt="Large company logo" width="150">
