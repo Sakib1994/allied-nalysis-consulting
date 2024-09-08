@@ -1,9 +1,9 @@
 <template>
     <!-- <footer class="footer bg-slate-700 text-base-content p-10 grid-cols-1 md:grid-cols-4"> -->
-    
+
     <footer class="footer bg-slate-700 text-base-content p-10 grid-cols-3 lg:grid-cols-4 border-b-2 border-slate-400">
         <aside class="text-neutral-100 space-y-4 hidden lg:block">
-            <img src="/allied_logo_large.png" alt="Large company logo" width="200">
+            <img src="/allied_logo_large.png" alt="Large company logo" width="150">
             <div class="flex space-x-4">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="size-12">
@@ -19,26 +19,43 @@
         </aside>
         <!-- <div class="links-group col-span-1 md:col-span-3 grid-flow-col"> -->
         <nav class="text-neutral-100 transition-colors grid grid-cols-1">
-            <h6 class="footer-title text-xl text-[#F1C963] opacity-100">Services</h6>
-            <NuxtLink to="/service" class="link link-hover hover:text-yellow-300 text-lg">
+            <h6 class="footer-title text-xl opacity-100">Services</h6>
+            <NuxtLink to="/service"
+                class="link link-hover text-emerald-300 hover:text-gray-100 text-lg transition ease-in-out delay-75">
                 Policy Analysis
             </NuxtLink>
-            <NuxtLink to="/service" class="link link-hover hover:text-yellow-300 text-lg">Market Entry Strategy
+            <NuxtLink to="/service"
+                class="link link-hover text-emerald-300 hover:text-gray-100 text-lg transition ease-in-out delay-75">
+                Market Entry Strategy
             </NuxtLink>
-            <NuxtLink to="/service" class="link link-hover hover:text-yellow-300 text-lg">Brand Positioning</NuxtLink>
-            <NuxtLink to="/service" class="link link-hover hover:text-yellow-300 text-lg">Media Management</NuxtLink>
+            <NuxtLink to="/service"
+                class="link link-hover text-emerald-300 hover:text-gray-100 text-lg transition ease-in-out delay-75">
+                Brand Positioning</NuxtLink>
+            <NuxtLink to="/service"
+                class="link link-hover text-emerald-300 hover:text-gray-100 text-lg transition ease-in-out delay-75">
+                Media Management</NuxtLink>
         </nav>
         <nav class="text-neutral-100 grid grid-cols-1">
-            <h6 class="footer-title text-xl text-[#F1C963] opacity-100">Company</h6>
-            <NuxtLink to="/" class="link link-hover hover:text-yellow-300 text-lg">Home</NuxtLink>
-            <NuxtLink to="/service" class="link link-hover hover:text-yellow-300 text-lg">Service</NuxtLink>
-            <NuxtLink to="/faq" class="link link-hover hover:text-yellow-300 text-lg">FAQ</NuxtLink>
-            <NuxtLink to="/contact" class="link link-hover hover:text-yellow-300 text-lg">Contact</NuxtLink>
+            <h6 class="footer-title text-xl opacity-100">Company</h6>
+            <NuxtLink to="/"
+                class="link link-hover text-emerald-300 hover:text-gray-100 text-lg transition ease-in-out delay-75">
+                Home</NuxtLink>
+            <NuxtLink to="/service"
+                class="link link-hover text-emerald-300 hover:text-gray-100 text-lg transition ease-in-out delay-75">
+                Service</NuxtLink>
+            <NuxtLink to="/faq"
+                class="link link-hover text-emerald-300 hover:text-gray-100 text-lg transition ease-in-out delay-75">FAQ
+            </NuxtLink>
+            <NuxtLink to="/contact"
+                class="link link-hover text-emerald-300 hover:text-gray-100 text-lg transition ease-in-out delay-75">
+                Contact</NuxtLink>
         </nav>
         <nav class="text-neutral-100 grid grid-cols-1">
-            <h6 class="footer-title text-xl text-[#F1C963] opacity-100">Address</h6>
-            <a class="link link-hover hover:text-yellow-300 text-lg">1130 16th St NW</a>
-            <a class="link link-hover hover:text-yellow-300 text-lg">Washington DC</a>
+            <h6 class="footer-title text-xl opacity-100">Address</h6>
+            <a class="link link-hover text-emerald-300 hover:text-gray-100 text-lg transition ease-in-out delay-75">1130
+                16th St NW</a>
+            <a class="link link-hover text-emerald-300 hover:text-gray-100 text-lg transition ease-in-out delay-75">Washington
+                DC</a>
         </nav>
         <!-- </div> -->
     </footer>
