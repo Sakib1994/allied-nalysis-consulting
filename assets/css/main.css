@@ -1,19 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @keyframes appear {
     0% {
         opacity: 0;
         transform: translateY(30px) scale(0.9);
     }
+
     100% {
         opacity: 01;
         transform: translateY(0) scale(1);
     }
 }
+
 .service-card {
     animation: appear linear;
     animation-timeline: view();
     /* animation-range: entry 0 cover 30%; */
     animation-range: entry 10% contain 25%;
+}
+
+@layer utilities {
+    .animation-delay-2000 {
+        animation-delay: 2s;
+    }
+
+    .animation-delay-4000 {
+        animation-delay: 4s;
+    }
 }

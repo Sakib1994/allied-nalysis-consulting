@@ -4,8 +4,8 @@
             <div class="bg-[url('/image-aboutus.jpeg')] bg-cover bg-fixed">
 
             </div>
-            <div class="my-8 py-8 pl-8">
-                <div class="text-center lg:text-left">
+            <div class="my-8 py-8 pl-4">
+                <div class="w-full md:w-11/12 mx-auto text-center lg:text-left">
                     <h1 class="text-2xl font-bold uppercase">About us</h1>
                     <div class="divider"></div>
                     <p class="py-4 text-2xl md:text-3xl text-indigo-900">
@@ -64,29 +64,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-11/12 shrink-0 p-4 md:p-2 m-4 mx-auto">
-                    <!-- <div class="flex gap-2 text-amber-400">
-                        <div class="card bg-base-100 w-1/3 shadow-xl">
-                            <div class="card-body items-center text-center">
-                                <h2 class="card-title text-4xl">100k+</h2>
-                                <p class="text-xl">Companies/Clients Work With</p>
-                            </div>
-                        </div>
-                        <div class="card bg-base-100 w-1/3 shadow-xl">
-                            <div class="card-body items-center text-center">
-                                <h2 class="card-title text-4xl"> 500K+</h2>
-                                <p class="text-xl">Consultations</p>
-                            </div>
-                        </div>
-                        <div class="card bg-base-100 w-1/3 shadow-xl">
-
-                            <div class="card-body items-center text-center">
-                                <h2 class="card-title text-4xl">100+</h2>
-                                <p class="text-xl">Expert Consultants </p>
-                            </div>
-                        </div>
-                    </div> -->
-                    <div class="stats shadow">
+                <div class="w-full md:w-11/12 shrink-0 p-4 md:p-2 mx-auto">
+                    <div class="stats shadow -translate-x-2">
                         <div class="stat w-48">
                             <div class="stat-value text-primary">100k+</div>
                             <div class="stat-title w-full text-wrap">Companies/Clients Work With</div>
@@ -107,9 +86,3 @@
         </div>
     </div>
 </template>
-<style scoped>
-img {
-    width: 50px;
-    height: 50px;
-}
-</style>

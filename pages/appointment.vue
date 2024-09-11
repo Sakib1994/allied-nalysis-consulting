@@ -1,7 +1,9 @@
 <template>
     <div class="min-h-screen">
-        <div class="w-full md:w-120 mx-auto py-12 text-center prose space-y-4">
-            <h1 class="text-3xl">Appointment form</h1>
-        </div>
+        <PageHeader>
+            <h1 class="text-5xl text-blue-800">Contact</h1>
+        </PageHeader>
+<div class="divider"></div>
+        <Reccomendation />
     </div>
 </template>

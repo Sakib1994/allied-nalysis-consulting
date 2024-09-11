@@ -1,9 +1,9 @@
 <template>
     <div class="min-h-screen">
-        <div class="w-full md:w-120 mx-auto py-16 text-center">
-            <h1 class="text-5xl font-bold">Contact</h1>
-        </div>
-        <div class="max-w-5xl mx-auto">
+        <PageHeader>
+            <h1 class="text-5xl text-blue-800">Contact</h1>
+        </PageHeader>
+        <div class="max-w-5xl mx-auto py-12">
             <div class="grid grid-cols-1 md:grid-cols-2">
                 <div class="w-full">
                     <div class="card">

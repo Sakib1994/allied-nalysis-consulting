@@ -10,29 +10,32 @@
         </div>
         <!-- Mission section -->
         <section class="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center p-4">
-            <article class="service-card">
-                <div class="card w-full lg:w-128 shadow-xl text-blue-900">
-                    <div class="card-body">
-                        <h2 class="card-title text-3xl">Our Expertise</h2>
-                        <ul class="list-disc space-y-4 list-inside">
-                            <li>
-                                Mapping customer/consumer needs
-                            </li>
-                            <li>
-                                Assessing AI opportunities and capabilities
-                            </li>
-                            <li>
-                                Assessing market competitiveness
-                            </li>
-                            <li>
-                                Developing innovation strategies
-                            </li>
-                            <li>Generating ideas and brainstorming</li>
-                        </ul>
-                        <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="w-full h-full grid justify-items-center items-center bg-[url('/image-aboutus.jpeg')] md:bg-slate-50 md:bg-none bg-cover bg-fixed">
+                <article class="service-card rounded-lg">
+                    <div class="card w-full lg:w-128 bg-slate-50 shadow-xl text-blue-900  my-12 md:my-4">
+                        <div class="card-body">
+                            <h2 class="card-title text-3xl">Our Expertise</h2>
+                            <ul class="list-disc space-y-4 list-inside">
+                                <li>
+                                    Mapping customer/consumer needs
+                                </li>
+                                <li>
+                                    Assessing AI opportunities and capabilities
+                                </li>
+                                <li>
+                                    Assessing market competitiveness
+                                </li>
+                                <li>
+                                    Developing innovation strategies
+                                </li>
+                                <li>Generating ideas and brainstorming</li>
+                            </ul>
+                            <p>If a dog chews shoes whose shoes does he choose?</p>
+                        </div>
                     </div>
-                </div>
-            </article>
+                </article>
+            </div>
+
             <aside class="hidden lg:block py-12 -translate-x-8">
                 <img src="/mission.webp" class="object-contain rounded-lg">
             </aside>

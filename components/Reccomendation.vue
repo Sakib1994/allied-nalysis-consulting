@@ -5,12 +5,12 @@
             <h3 class="text-2xl md:text-3xl">faster and bigger</h3>
         </div>
         <div class="max-w-screen-xl grid pt-8 pb-12 grid-cols-1 lg:grid-cols-3 gap-4 p-2 w-11/12 mx-auto">
-            <div v-for="rec in reccomendations" class="card w-full bg-neutral-700 text-neutral-content service-card">
+            <div v-for="rec in reccomendations" :key="rec.title" class="card w-full bg-neutral-700 text-neutral-content service-card">
                 <div class="card-body items-center text-neutral-50">
                     <div class="card-title justify-center items-center text-5xl pb-4">
                         {{ rec.rating }}
                     </div>
-                    <Rating />
+                    <Rating :size="'md'" :rating="rec.rating" />
                     <h2 class="text-2xl text-center">
                         {{ rec.title }}
                     </h2>
@@ -23,7 +23,7 @@
     </div>
 </template>
 <script setup lang="ts">
-const reccomendations = [
+const reccomendations = ref([
     {
         title: "Business Class",
         description: "Premium consulting services tailored for excellence.",
@@ -39,5 +39,5 @@ const reccomendations = [
         description: "Highly rated for consistent quality and success.",
         rating: 4.8
     }
-]
+])
 </script>
