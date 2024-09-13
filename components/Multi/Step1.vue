@@ -1,14 +1,20 @@
 <template>
-     <div class="form-control w-full">
-      <label class="label">
-        <span class="label-text">What is your name?</span>
-      </label>
-      <input type="text" placeholder="Type here" class="input input-bordered w-full" />
+  <div class="form-control max-w-sm mx-auto pt-4 min-h-[22rem]">
+    <h2>Select a date</h2>
+    <div >
+      <client-only>
+        <VDatePicker v-model="date" :disabledDates="disabledDates" expanded />
+      </client-only>
     </div>
-    <div class="form-control max-w-xs pt-4">
-      <label class="cursor-pointer label">
-        <span class="label-text">I am awesome</span>
-        <input type="checkbox" checked="true" class="checkbox" />
-      </label>
-    </div>
+  </div>
 </template>
+<script setup lang="ts">
+const date = ref(new Date())
+const disabledDates = ref([
+  {
+    repeat: {
+      weekdays: [1, 7],
+    },
+  },
+]);
+</script>

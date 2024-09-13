@@ -9,10 +9,10 @@
         <form @submit.prevent="formAction" class="min-w-full px-6">
             <component :is="props.forms[step]"></component>
             <div class="py-4"></div>
-            <div class="flex justify-end">
-                <button class="btn btn-ghost" type="button" v-if="step !== 0" @click="step--">Back</button>
-                <button class="btn btn-primary" type="submit" v-if="step !== props.steps.length - 1">Next</button>
-                <button class="btn btn-primary" type="submit" v-if="step == props.steps.length - 1">Submit</button>
+            <div class="flex justify-between">
+                <button class="btn btn-outlined" type="button" v-if="step !== 0" @click="step--">Back</button>
+                <button class="btn btn-primary ml-auto" type="submit" v-if="step !== props.steps.length - 1">Next</button>
+                <button class="btn btn-primary" type="submit" v-if="step == props.steps.length - 1">Book an Appointment</button>
             </div>
         </form>
     </div>
