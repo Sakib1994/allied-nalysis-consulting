@@ -138,7 +138,7 @@
     left: calc(50% - var(--circle-size) / 2);
 
     transform-origin: calc(50% - 400px);
-    animation: moveInCircle 20s reverse infinite;
+    animation: moveInCircle 10s reverse infinite;
 
     opacity: 1;
   }
@@ -154,7 +154,7 @@
     left: calc(50% - var(--circle-size) / 2 - 500px);
 
     transform-origin: calc(50% + 400px);
-    animation: moveInCircle 40s linear infinite;
+    animation: moveInCircle 20s linear infinite;
 
     opacity: 1;
   }
@@ -170,7 +170,7 @@
     left: calc(50% - var(--circle-size) / 2);
 
     transform-origin: calc(50% - 200px);
-    animation: moveHorizontal 40s ease infinite;
+    animation: moveHorizontal 20s ease infinite;
 
     opacity: 0.7;
   }
@@ -186,7 +186,7 @@
     left: calc(50% - var(--circle-size));
 
     transform-origin: calc(50% - 800px) calc(50% + 200px);
-    animation: moveInCircle 20s ease infinite;
+    animation: moveInCircle 10s ease infinite;
 
     opacity: 1;
   }
