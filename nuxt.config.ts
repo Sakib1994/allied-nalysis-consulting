@@ -14,6 +14,6 @@ export default defineNuxtConfig({
     dataValue: "theme"
   },
   nitro: {
-    preset:"cloudflare-pages"
+    preset:"vercel"
   }
 })
