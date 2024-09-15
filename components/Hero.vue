@@ -18,17 +18,15 @@
         <p class="mb-5">
           Empowering businesses with expert consulting solutions tailored to drive success and innovation.
         </p>
-        <button class="btn btn-accent">Book an Appintment</button>
+        <NuxtLink to="/appointment">
+          <button class="z-10 relative border-2 min-h-12 rounded-lg border-gray-800 bg-sky-100 py-2.5 px-5 uppercase text-gray-800 transition-colors before:absolute before:left-0 before:top-0 before:-z-10 before:h-full before:w-full before:origin-top-left before:scale-y-0 before:bg-gray-800 before:transition-transform before:duration-300 before:content-[''] hover:text-white before:hover:scale-y-100">Book An Appointment</button>
+        </NuxtLink>
       </div>
     </div>
   </div>
 </template>
 
 <style>
-/*   style="background-image: url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp);" */
-.bg-custom-img {
-  background-image: url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)
-}
 
 :root {
   --color-bg1: rgb(0, 1, 10);
@@ -94,7 +92,6 @@
   position: relative;
   overflow: hidden;
   background: linear-gradient(40deg, var(--color-bg3), var(--color-bg4));
-  /* background: var(--color-bg1); */
   top: 0;
   left: 0;
 
