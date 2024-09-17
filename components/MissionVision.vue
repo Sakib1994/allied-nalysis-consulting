@@ -37,13 +37,13 @@
             </div>
 
             <aside class="hidden lg:block py-12 -translate-x-8">
-                <img src="/mission.webp" class="object-contain rounded-lg">
+                <img src="/experts_03.jpg" class="object-contain rounded-lg">
             </aside>
         </section>
         <!-- Approch section -->
         <section class="grid grid-cols-1 lg:grid-cols-2 justify-items-center items-center">
             <aside class="hidden lg:block py-12 translate-x-8">
-                <img src="/approch.webp" class="object-contain rounded-lg">
+                <img src="/our_approach_03.jpg" class="object-contain rounded-lg">
             </aside>
             <article class="service-card">
                 <div class="card w-full lg:w-128 bg-white shadow-xl text-blue-900">
