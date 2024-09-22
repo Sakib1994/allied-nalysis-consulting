@@ -13,13 +13,13 @@
                         Allied Analysis Consulting
                     </p>
                     <div class="flex flex-col">
-                        <div class="grid grid-cols-8 space-x-2">
+                        <div class="grid grid-cols-10 space-x-2">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="size-16">
+                                stroke="currentColor" class="size-12">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M7.5 3.75H6A2.25 2.25 0 0 0 3.75 6v1.5M16.5 3.75H18A2.25 2.25 0 0 1 20.25 6v1.5m0 9V18A2.25 2.25 0 0 1 18 20.25h-1.5m-9 0H6A2.25 2.25 0 0 1 3.75 18v-1.5M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                             </svg>
-                            <div class="flex flex-col items-start col-span-7">
+                            <div class="flex flex-col items-start col-span-9">
                                 <h3 class="text-3xl">
                                     Our Vision
                                 </h3>
@@ -31,13 +31,13 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="grid grid-cols-8 space-x-2">
+                        <div class="grid grid-cols-10 space-x-2">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="size-16">
+                                stroke="currentColor" class="size-12">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
                             </svg>
-                            <div class="flex flex-col items-start col-span-7">
+                            <div class="flex flex-col items-start col-span-9">
                                 <h3 class="text-3xl">
                                     Our Mission
                                 </h3>
@@ -71,7 +71,7 @@
                     <div class="stats shadow w-48">
                         <div class="stat">
                             <div class="stat-title">Increase Traffic</div>
-                            <div class="stat-value">62%</div>
+                            <div class="stat-value text-blue-700">62%</div>
                         </div>
                     </div>
                 </div>

@@ -12,7 +12,7 @@
       </div>
     </div>
     <div class="hero-content text-neutral-content text-center">
-      <div class="max-w-md">
+      <div class="max-w-xl">
         <h1 class="mb-5 text-5xl font-bold">Your Business Consultant</h1>
         <h2 class="mb-5 text-3xl font-bold">Boost Your Success.</h2>
         <p class="mb-5">

@@ -3,7 +3,7 @@
         <PageHeader>
             <h1 class="text-5xl text-blue-800">Book an Appointment</h1>
         </PageHeader>
-        <section class="appintment-container py-12 bg-slate-700 text-slate-50">
+        <section class="appintment-container py-16 bg-gradient-to-t from-slate-100">
             <div class="max-w-screen-xl grid grid-cols-1 md:grid-cols-2 mx-auto">
                 <div class="text-area px-4 md:px-8 flex flex-col justify-center">
                     <h1 class="text-4xl py-4">Ready to take the next step?</h1>

@@ -3,7 +3,7 @@
         <PageHeader>
             <h1 class="text-5xl text-blue-800">SERVICE</h1>
         </PageHeader>
-        <div class="min-h-screen bg-gradient-to-tr from-blue-200 flex flex-col justify-center items-center">
+        <div class="min-h-screen bg-gradient-to-t from-slate-100 flex flex-col justify-center items-center">
             <div class="max-w-xl text-center space-y-4">
                 <h1 class="text-5xl">Our services</h1> 
                 <h2 class="text-2xl font-medium">Empower Your Business Strategy with Allied Analysis Consulting</h2>

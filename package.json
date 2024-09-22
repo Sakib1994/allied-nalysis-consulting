@@ -13,6 +13,9 @@
     "studio": "drizzle-kit studio"
   },
   "dependencies": {
+    "@formkit/addons": "^1.6.7",
+    "@formkit/nuxt": "^1.6.7",
+    "@formkit/vue": "^1.6.7",
     "better-sqlite3": "^11.3.0",
     "drizzle-orm": "^0.33.0",
     "nuxt": "^3.13.0",

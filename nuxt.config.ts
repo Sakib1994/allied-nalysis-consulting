@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
-  modules: ['@nuxtjs/color-mode', '@samk-dev/nuxt-vcalendar'],
+  modules: ['@nuxtjs/color-mode', '@samk-dev/nuxt-vcalendar', '@formkit/nuxt'],
   postcss: {
     plugins: {
       tailwindcss: {},
